@@ -25,11 +25,9 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
         ConfigBox: Content of the YAML file.
     """
     try:
-        with open(path_to_yaml, 'r') as yaml_file:
+        with open(path_to_yaml) as yaml_file:
             content = yaml.safe_load(yaml_file)
-            if content is None:
-                raise ValueError("yaml file is empty")
-            logger.info(f"yaml file: {path_to_yaml} loaded successfully")
+            logger.info(f"yaml file: {yaml_file} loaded successfully")
             return ConfigBox(content)
     except BoxValueError:
         raise ValueError("yaml file is empty")
@@ -71,7 +69,7 @@ def load_json(path: Path) -> ConfigBox:
     Returns:
         ConfigBox: Data as a ConfigBox.
     """
-    with open(path, 'r') as f:
+    with open(path) as f:
         content = json.load(f)
     logger.info(f"JSON file loaded successfully from: {path}.")
     return ConfigBox(content)

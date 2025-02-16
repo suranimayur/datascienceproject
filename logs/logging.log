@@ -1,14 +1,43 @@
-[2025-02-15 13:31:01,382] INFO: main: Welcome to our custom logging datascience project:]
-[2025-02-15 14:56:51,473] INFO: main: Welcome to our custom logging datascience project:]
-[2025-02-15 23:04:35,898] INFO: main: >>>>> stage Data Ingestion Stage started <<<<<<<:]
-[2025-02-15 23:04:35,898] ERROR: main: Error occurred during stage Data Ingestion Stage: [Errno 2] No such file or directory: '\\config\\config.yaml':]
-[2025-02-15 23:06:05,465] INFO: main: >>>>> stage Data Ingestion Stage started <<<<<<<:]
-[2025-02-15 23:06:05,465] ERROR: main: Error occurred during stage Data Ingestion Stage: [Errno 2] No such file or directory: 'config\\config.yaml':]
-[2025-02-15 23:06:29,905] INFO: main: >>>>> stage Data Ingestion Stage started <<<<<<<:]
-[2025-02-15 23:06:29,906] ERROR: main: Error occurred during stage Data Ingestion Stage: [Errno 2] No such file or directory: 'config\\config.yaml':]
-[2025-02-15 23:08:04,298] INFO: main: >>>>> stage Data Ingestion Stage started <<<<<<<:]
-[2025-02-15 23:08:04,298] ERROR: main: Error occurred during stage Data Ingestion Stage: [Errno 2] No such file or directory: 'config\\config.yaml':]
-[2025-02-15 23:10:00,107] INFO: main: >>>>> stage Data Ingestion Stage started <<<<<<<:]
-[2025-02-15 23:10:00,108] ERROR: main: Error occurred during stage Data Ingestion Stage: [Errno 2] No such file or directory: 'config\\config.yaml':]
-[2025-02-15 23:10:31,693] INFO: main: >>>>> stage Data Ingestion Stage started <<<<<<<:]
-[2025-02-15 23:10:31,694] ERROR: main: Error occurred during stage Data Ingestion Stage: [Errno 2] No such file or directory: 'config\\config.yaml':]
+[2025-02-16 12:03:12,943] INFO: main: >>>>> stage Data Ingestion Stage started <<<<<<<:]
+[2025-02-16 12:03:12,944] ERROR: main: Error occurred during stage Data Ingestion Stage: [Errno 2] No such file or directory: 'config\\config.yaml':]
+[2025-02-16 12:08:44,022] INFO: main: >>>>> stage Data Ingestion Stage started <<<<<<<:]
+[2025-02-16 12:08:44,023] ERROR: main: Error occurred during stage Data Ingestion Stage: [Errno 2] No such file or directory: 'config\\config.yaml':]
+[2025-02-16 12:36:33,435] INFO: main: >>>>> stage Data Ingestion Stage started <<<<<<<:]
+[2025-02-16 12:36:33,436] ERROR: main: Error occurred during stage Data Ingestion Stage: [Errno 2] No such file or directory: 'config\\config.yaml':]
+[2025-02-16 12:39:56,126] INFO: main: >>>>> stage Data Ingestion Stage started <<<<<<<:]
+[2025-02-16 12:39:56,136] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\src\\datascience\\config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-16 12:39:56,143] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\params.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-16 12:39:56,143] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\schema.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-16 12:39:56,143] INFO: common: Created directory at: artifacts.:]
+[2025-02-16 12:39:56,144] INFO: common: Created directory at: artifacts/data_ingestion.:]
+[2025-02-16 12:39:56,952] INFO: data_ingestion: artifacts\data_ingestion\data.zip downloaded! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 815C:394820:122C47:1D099D:67B18A15
+Accept-Ranges: bytes
+Date: Sun, 16 Feb 2025 07:09:57 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100033-HYD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1739689797.396077,VS0,VE283
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 90918a58e0d49a3d38d99f1c610a52a691c9ffd0
+Expires: Sun, 16 Feb 2025 07:14:57 GMT
+Source-Age: 0
+
+:]
+[2025-02-16 12:39:56,970] INFO: data_ingestion: Zip file artifacts\data_ingestion\data.zip extracted to artifacts\data_ingestion:]
+[2025-02-16 12:39:56,970] INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<< 
+
+x====================x:]
