@@ -41,3 +41,28 @@ Source-Age: 0
 [2025-02-16 12:39:56,970] INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<< 
 
 x====================x:]
+[2025-02-16 19:40:56,363] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\src\\datascience\\config\\config.yaml' mode='r' encoding='UTF-8'> loaded successfully:]
+[2025-02-16 19:40:56,380] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\params.yaml' mode='r' encoding='UTF-8'> loaded successfully:]
+[2025-02-16 19:40:56,393] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\schema.yaml' mode='r' encoding='UTF-8'> loaded successfully:]
+[2025-02-16 19:40:56,397] INFO: common: Created directory at: artifacts.:]
+[2025-02-16 19:40:56,398] INFO: common: Created directory at: artifacts/data_validation.:]
+[2025-02-16 21:12:08,237] INFO: main: >>>>> stage Data Ingestion Stage started <<<<<<<:]
+[2025-02-16 21:12:08,248] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\src\\datascience\\config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-16 21:12:08,252] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\params.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-16 21:12:08,270] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\schema.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-16 21:12:08,270] INFO: common: Created directory at: artifacts.:]
+[2025-02-16 21:12:08,270] INFO: common: Created directory at: artifacts/data_ingestion.:]
+[2025-02-16 21:12:08,271] INFO: data_ingestion: File artifacts\data_ingestion\data.zip already exists.:]
+[2025-02-16 21:12:08,297] INFO: data_ingestion: Zip file artifacts\data_ingestion\data.zip extracted to artifacts\data_ingestion.:]
+[2025-02-16 21:12:08,297] INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<< 
+
+x====================x:]
+[2025-02-16 21:12:08,298] INFO: main: >>>>>>> stage Model Validation Stage started <<<<<<<<:]
+[2025-02-16 21:12:08,299] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\src\\datascience\\config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-16 21:12:08,300] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\params.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-16 21:12:08,302] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\schema.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-16 21:12:08,302] INFO: common: Created directory at: artifacts.:]
+[2025-02-16 21:12:08,303] INFO: common: Created directory at: artifacts/data_validation.:]
+[2025-02-16 21:12:08,319] INFO: main: >>>>>> stage Model Validation Stage completed <<<<<<< 
+
+x====================x:]
