@@ -462,3 +462,239 @@ x====================x:]
 [2025-02-18 21:28:52,607] INFO: common: Created directory at: artifacts.:]
 [2025-02-18 21:28:52,608] INFO: common: Created directory at: artifacts/model_evaluation.:]
 [2025-02-18 21:28:52,645] INFO: common: JSON file saved at: artifacts\model_evaluation\metrics.json.:]
+[2025-02-18 21:49:56,184] INFO: main: >>>>> stage Data Ingestion Stage started <<<<<<<:]
+[2025-02-18 21:49:56,187] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\src\\datascience\\config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:49:56,187] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\params.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:49:56,188] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\schema.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:49:56,189] INFO: common: Created directory at: artifacts.:]
+[2025-02-18 21:49:56,189] INFO: common: Created directory at: artifacts/data_ingestion.:]
+[2025-02-18 21:49:56,189] INFO: data_ingestion: File artifacts\data_ingestion\data.zip already exists.:]
+[2025-02-18 21:49:56,193] INFO: data_ingestion: Zip file artifacts\data_ingestion\data.zip extracted to artifacts\data_ingestion.:]
+[2025-02-18 21:49:56,194] INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<< 
+
+x====================x:]
+[2025-02-18 21:49:56,194] INFO: main: >>>>>>> stage Model Validation Stage started <<<<<<<<:]
+[2025-02-18 21:49:56,196] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\src\\datascience\\config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:49:56,197] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\params.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:49:56,198] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\schema.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:49:56,199] INFO: common: Created directory at: artifacts.:]
+[2025-02-18 21:49:56,200] INFO: common: Created directory at: artifacts/data_validation.:]
+[2025-02-18 21:49:56,219] INFO: main: >>>>>> stage Model Validation Stage completed <<<<<<< 
+
+x====================x:]
+[2025-02-18 21:49:56,219] INFO: main: >>>>>>> stage Data Transformation Stage started <<<<<<<<:]
+[2025-02-18 21:49:56,227] INFO: data_transformation_pipeline: Data Tranformation Stage initiated.:]
+[2025-02-18 21:49:56,229] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\src\\datascience\\config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:49:56,230] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\params.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:49:56,231] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\schema.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:49:56,231] INFO: common: Created directory at: artifacts.:]
+[2025-02-18 21:49:56,232] INFO: common: Created directory at: artifacts/data_transformation.:]
+[2025-02-18 21:49:56,246] INFO: data_transformation: Train and test data saved in artifacts\data_transformation. 
+:]
+[2025-02-18 21:49:56,247] INFO: data_transformation: Splitted data into training and test sets:]
+[2025-02-18 21:49:56,247] INFO: data_transformation: (1199, 12):]
+[2025-02-18 21:49:56,247] INFO: data_transformation: (400, 12):]
+[2025-02-18 21:49:56,247] INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<< 
+
+x====================x:]
+[2025-02-18 21:49:56,248] INFO: main: >>>>>>> stage Model Triner Stage started <<<<<<<<:]
+[2025-02-18 21:49:56,248] INFO: model_trainer_pipeline: >>>>> stage Model Trainer Stage started <<<<<<<:]
+[2025-02-18 21:49:56,250] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\src\\datascience\\config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:49:56,250] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\params.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:49:56,251] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\schema.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:49:56,252] INFO: common: Created directory at: artifacts.:]
+[2025-02-18 21:49:56,252] INFO: common: Created directory at: artifacts/model_trainer.:]
+[2025-02-18 21:49:56,286] INFO: model_trainer_pipeline: >>>>>> stage Model Trainer Stage completed <<<<<<< 
+
+x====================x:]
+[2025-02-18 21:49:56,286] INFO: main: >>>>>> stage Model Triner Stage completed <<<<<<< 
+
+x====================x:]
+[2025-02-18 21:49:56,287] INFO: main: >>>>>> stage Model evaluation stage started <<<<<<<<<<:]
+[2025-02-18 21:49:56,287] INFO: model_evaluation_pipeline: >>>>> stage Model evaluation stages started <<<<<<<:]
+[2025-02-18 21:49:56,289] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\src\\datascience\\config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:49:56,290] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\params.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:49:56,291] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\schema.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:49:56,291] INFO: common: Created directory at: artifacts.:]
+[2025-02-18 21:49:56,291] INFO: common: Created directory at: artifacts/model_evaluation.:]
+[2025-02-18 21:49:56,810] INFO: common: JSON file saved at: artifacts\model_evaluation\metrics.json.:]
+[2025-02-18 21:49:59,493] INFO: main: >>>> stage Model evaluation stage completed <<<<<
+
+x=================x:]
+[2025-02-18 21:53:01,180] INFO: main: >>>>> stage Data Ingestion Stage started <<<<<<<:]
+[2025-02-18 21:53:01,183] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\src\\datascience\\config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:53:01,183] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\params.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:53:01,185] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\schema.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:53:01,185] INFO: common: Created directory at: artifacts.:]
+[2025-02-18 21:53:01,186] INFO: common: Created directory at: artifacts/data_ingestion.:]
+[2025-02-18 21:53:01,186] INFO: data_ingestion: File artifacts\data_ingestion\data.zip already exists.:]
+[2025-02-18 21:53:01,187] INFO: data_ingestion: Zip file artifacts\data_ingestion\data.zip extracted to artifacts\data_ingestion.:]
+[2025-02-18 21:53:01,188] INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<< 
+
+x====================x:]
+[2025-02-18 21:53:01,188] INFO: main: >>>>>>> stage Model Validation Stage started <<<<<<<<:]
+[2025-02-18 21:53:01,190] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\src\\datascience\\config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:53:01,191] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\params.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:53:01,193] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\schema.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:53:01,194] INFO: common: Created directory at: artifacts.:]
+[2025-02-18 21:53:01,195] INFO: common: Created directory at: artifacts/data_validation.:]
+[2025-02-18 21:53:01,225] INFO: main: >>>>>> stage Model Validation Stage completed <<<<<<< 
+
+x====================x:]
+[2025-02-18 21:53:01,225] INFO: main: >>>>>>> stage Data Transformation Stage started <<<<<<<<:]
+[2025-02-18 21:53:01,226] INFO: data_transformation_pipeline: Data Tranformation Stage initiated.:]
+[2025-02-18 21:53:01,228] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\src\\datascience\\config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:53:01,229] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\params.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:53:01,231] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\schema.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:53:01,231] INFO: common: Created directory at: artifacts.:]
+[2025-02-18 21:53:01,231] INFO: common: Created directory at: artifacts/data_transformation.:]
+[2025-02-18 21:53:01,244] INFO: data_transformation: Train and test data saved in artifacts\data_transformation. 
+:]
+[2025-02-18 21:53:01,244] INFO: data_transformation: Splitted data into training and test sets:]
+[2025-02-18 21:53:01,244] INFO: data_transformation: (1199, 12):]
+[2025-02-18 21:53:01,244] INFO: data_transformation: (400, 12):]
+[2025-02-18 21:53:01,245] INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<< 
+
+x====================x:]
+[2025-02-18 21:53:01,245] INFO: main: >>>>>>> stage Model Triner Stage started <<<<<<<<:]
+[2025-02-18 21:53:01,245] INFO: model_trainer_pipeline: >>>>> stage Model Trainer Stage started <<<<<<<:]
+[2025-02-18 21:53:01,247] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\src\\datascience\\config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:53:01,248] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\params.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:53:01,249] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\schema.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:53:01,250] INFO: common: Created directory at: artifacts.:]
+[2025-02-18 21:53:01,250] INFO: common: Created directory at: artifacts/model_trainer.:]
+[2025-02-18 21:53:01,302] INFO: model_trainer_pipeline: >>>>>> stage Model Trainer Stage completed <<<<<<< 
+
+x====================x:]
+[2025-02-18 21:53:01,302] INFO: main: >>>>>> stage Model Triner Stage completed <<<<<<< 
+
+x====================x:]
+[2025-02-18 21:53:01,304] INFO: main: >>>>>> stage Model evaluation stage started <<<<<<<<<<:]
+[2025-02-18 21:53:01,304] INFO: model_evaluation_pipeline: >>>>> stage Model evaluation stages started <<<<<<<:]
+[2025-02-18 21:53:01,305] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\src\\datascience\\config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:53:01,306] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\params.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:53:01,308] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\schema.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:53:01,308] INFO: common: Created directory at: artifacts.:]
+[2025-02-18 21:53:01,309] INFO: common: Created directory at: artifacts/model_evaluation.:]
+[2025-02-18 21:53:01,807] INFO: common: JSON file saved at: artifacts\model_evaluation\metrics.json.:]
+[2025-02-18 21:53:04,577] INFO: main: >>>> stage Model evaluation stage completed <<<<<
+
+x=================x:]
+[2025-02-18 21:55:38,773] INFO: main: >>>>> stage Data Ingestion Stage started <<<<<<<:]
+[2025-02-18 21:55:38,776] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\src\\datascience\\config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:55:38,776] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\params.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:55:38,777] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\schema.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:55:38,778] INFO: common: Created directory at: artifacts.:]
+[2025-02-18 21:55:38,778] INFO: common: Created directory at: artifacts/data_ingestion.:]
+[2025-02-18 21:55:38,778] INFO: data_ingestion: File artifacts\data_ingestion\data.zip already exists.:]
+[2025-02-18 21:55:38,779] INFO: data_ingestion: Zip file artifacts\data_ingestion\data.zip extracted to artifacts\data_ingestion.:]
+[2025-02-18 21:55:38,779] INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<< 
+
+x====================x:]
+[2025-02-18 21:55:38,780] INFO: main: >>>>>>> stage Model Validation Stage started <<<<<<<<:]
+[2025-02-18 21:55:38,782] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\src\\datascience\\config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:55:38,782] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\params.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:55:38,784] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\schema.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:55:38,784] INFO: common: Created directory at: artifacts.:]
+[2025-02-18 21:55:38,785] INFO: common: Created directory at: artifacts/data_validation.:]
+[2025-02-18 21:55:38,815] INFO: main: >>>>>> stage Model Validation Stage completed <<<<<<< 
+
+x====================x:]
+[2025-02-18 21:55:38,815] INFO: main: >>>>>>> stage Data Transformation Stage started <<<<<<<<:]
+[2025-02-18 21:55:38,816] INFO: data_transformation_pipeline: Data Tranformation Stage initiated.:]
+[2025-02-18 21:55:38,818] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\src\\datascience\\config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:55:38,819] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\params.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:55:38,820] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\schema.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:55:38,820] INFO: common: Created directory at: artifacts.:]
+[2025-02-18 21:55:38,821] INFO: common: Created directory at: artifacts/data_transformation.:]
+[2025-02-18 21:55:38,832] INFO: data_transformation: Train and test data saved in artifacts\data_transformation. 
+:]
+[2025-02-18 21:55:38,832] INFO: data_transformation: Splitted data into training and test sets:]
+[2025-02-18 21:55:38,832] INFO: data_transformation: (1199, 12):]
+[2025-02-18 21:55:38,832] INFO: data_transformation: (400, 12):]
+[2025-02-18 21:55:38,833] INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<< 
+
+x====================x:]
+[2025-02-18 21:55:38,833] INFO: main: >>>>>>> stage Model Triner Stage started <<<<<<<<:]
+[2025-02-18 21:55:38,833] INFO: model_trainer_pipeline: >>>>> stage Model Trainer Stage started <<<<<<<:]
+[2025-02-18 21:55:38,835] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\src\\datascience\\config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:55:38,835] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\params.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:55:38,837] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\schema.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:55:38,837] INFO: common: Created directory at: artifacts.:]
+[2025-02-18 21:55:38,837] INFO: common: Created directory at: artifacts/model_trainer.:]
+[2025-02-18 21:55:38,923] INFO: model_trainer_pipeline: >>>>>> stage Model Trainer Stage completed <<<<<<< 
+
+x====================x:]
+[2025-02-18 21:55:38,924] INFO: main: >>>>>> stage Model Triner Stage completed <<<<<<< 
+
+x====================x:]
+[2025-02-18 21:55:38,924] INFO: main: >>>>>> stage Model evaluation stage started <<<<<<<<<<:]
+[2025-02-18 21:55:38,925] INFO: model_evaluation_pipeline: >>>>> stage Model evaluation stages started <<<<<<<:]
+[2025-02-18 21:55:38,928] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\src\\datascience\\config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:55:38,930] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\params.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:55:38,932] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\schema.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:55:38,933] INFO: common: Created directory at: artifacts.:]
+[2025-02-18 21:55:38,934] INFO: common: Created directory at: artifacts/model_evaluation.:]
+[2025-02-18 21:55:39,447] INFO: common: JSON file saved at: artifacts\model_evaluation\metrics.json.:]
+[2025-02-18 21:55:42,223] INFO: main: >>>> stage Model evaluation stage completed <<<<<
+
+x=================x:]
+[2025-02-18 21:57:06,876] INFO: main: >>>>> stage Data Ingestion Stage started <<<<<<<:]
+[2025-02-18 21:57:06,879] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\src\\datascience\\config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:57:06,879] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\params.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:57:06,880] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\schema.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:57:06,881] INFO: common: Created directory at: artifacts.:]
+[2025-02-18 21:57:06,881] INFO: common: Created directory at: artifacts/data_ingestion.:]
+[2025-02-18 21:57:06,881] INFO: data_ingestion: File artifacts\data_ingestion\data.zip already exists.:]
+[2025-02-18 21:57:06,882] INFO: data_ingestion: Zip file artifacts\data_ingestion\data.zip extracted to artifacts\data_ingestion.:]
+[2025-02-18 21:57:06,883] INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<< 
+
+x====================x:]
+[2025-02-18 21:57:06,883] INFO: main: >>>>>>> stage Model Validation Stage started <<<<<<<<:]
+[2025-02-18 21:57:06,884] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\src\\datascience\\config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:57:06,885] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\params.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:57:06,886] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\schema.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:57:06,887] INFO: common: Created directory at: artifacts.:]
+[2025-02-18 21:57:06,887] INFO: common: Created directory at: artifacts/data_validation.:]
+[2025-02-18 21:57:06,906] INFO: main: >>>>>> stage Model Validation Stage completed <<<<<<< 
+
+x====================x:]
+[2025-02-18 21:57:06,906] INFO: main: >>>>>>> stage Data Transformation Stage started <<<<<<<<:]
+[2025-02-18 21:57:06,907] INFO: data_transformation_pipeline: Data Tranformation Stage initiated.:]
+[2025-02-18 21:57:06,909] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\src\\datascience\\config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:57:06,909] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\params.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:57:06,911] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\schema.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:57:06,911] INFO: common: Created directory at: artifacts.:]
+[2025-02-18 21:57:06,912] INFO: common: Created directory at: artifacts/data_transformation.:]
+[2025-02-18 21:57:06,923] INFO: data_transformation: Train and test data saved in artifacts\data_transformation. 
+:]
+[2025-02-18 21:57:06,924] INFO: data_transformation: Splitted data into training and test sets:]
+[2025-02-18 21:57:06,924] INFO: data_transformation: (1199, 12):]
+[2025-02-18 21:57:06,924] INFO: data_transformation: (400, 12):]
+[2025-02-18 21:57:06,925] INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<< 
+
+x====================x:]
+[2025-02-18 21:57:06,925] INFO: main: >>>>>>> stage Model Triner Stage started <<<<<<<<:]
+[2025-02-18 21:57:06,925] INFO: model_trainer_pipeline: >>>>> stage Model Trainer Stage started <<<<<<<:]
+[2025-02-18 21:57:06,927] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\src\\datascience\\config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:57:06,928] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\params.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:57:06,929] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\schema.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:57:06,930] INFO: common: Created directory at: artifacts.:]
+[2025-02-18 21:57:06,930] INFO: common: Created directory at: artifacts/model_trainer.:]
+[2025-02-18 21:57:06,983] INFO: model_trainer_pipeline: >>>>>> stage Model Trainer Stage completed <<<<<<< 
+
+x====================x:]
+[2025-02-18 21:57:06,983] INFO: main: >>>>>> stage Model Triner Stage completed <<<<<<< 
+
+x====================x:]
+[2025-02-18 21:57:06,984] INFO: main: >>>>>> stage Model evaluation stage started <<<<<<<<<<:]
+[2025-02-18 21:57:06,984] INFO: model_evaluation_pipeline: >>>>> stage Model evaluation stages started <<<<<<<:]
+[2025-02-18 21:57:06,986] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\src\\datascience\\config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:57:06,986] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\params.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:57:06,988] INFO: common: yaml file: <_io.TextIOWrapper name='D:\\Udemy\\ML_Bootcamp\\18_End_to_End_DataScience_Project\\datascienceproject\\schema.yaml' mode='r' encoding='cp1252'> loaded successfully:]
+[2025-02-18 21:57:06,989] INFO: common: Created directory at: artifacts.:]
+[2025-02-18 21:57:06,989] INFO: common: Created directory at: artifacts/model_evaluation.:]
+[2025-02-18 21:57:07,395] INFO: common: JSON file saved at: artifacts\model_evaluation\metrics.json.:]
+[2025-02-18 21:57:10,114] INFO: main: >>>> stage Model evaluation stage completed <<<<<
+
+x=================x:]

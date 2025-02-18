@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Udemy/ML_Bootcamp/18_End_to_End_DataScience_Project/datascienceproject/mlruns/0/b347c6ed275249018842dfd09d626ce4/artifacts
+end_time: 1739896030113
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b347c6ed275249018842dfd09d626ce4
+run_name: handsome-worm-974
+run_uuid: b347c6ed275249018842dfd09d626ce4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739896027366
+status: 3
+tags: []
+user_id: surani.mayur

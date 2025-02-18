@@ -1,6 +1,11 @@
 from src.datascience.constants import *
 from src.datascience.utils.common import read_yaml,create_dictionaries
-from src.datascience.entity.config_entity import (DataIngestionconfig,DataValidationConfig,DataTransformationConfig,ModelTrainingConfig)
+from src.datascience.entity.config_entity import (DataIngestionconfig,DataValidationConfig,DataTransformationConfig,ModelTrainingConfig,ModelEvaluationConfig)
+import os 
+
+os.environ["MLFLOW_TRACKING_URL"] ="https://dagshub.com/surani.mayur/datascienceproject.mlflow"
+os.environ["MLFLOW_TRACKING_USERNAME"]="surani.mayur"
+os.environ["MLFLOW_TRACKING_PASSWORD"]="8e0fa2881661d8b0aa394495ae8650f1728eb027"
 
 class ConfigurationManager:
     def __init__(self,
@@ -73,3 +78,21 @@ class ConfigurationManager:
         
         return model_trainer_config
         
+    def get_model_evaluation_config(self) -> ModelEvaluationConfig:
+        config = self.config.model_evaluation
+        params = self.params.ElasticNet
+        schema = self.schema.TARGET_COLUMN
+        
+        create_dictionaries([config.root_dir])
+        
+        model_evaluation_config=ModelEvaluationConfig(
+            root_dir=(config.root_dir),
+            test_data_path=(config.test_data_path),
+            model_path=(config.model_path),
+            all_params=self.params,
+            metric_file_name=(config.metric_file_name),
+            target_column=schema.name,
+            mlflow_uri='https://dagshub.com/surani.mayur/datascienceproject.mlflow'     #os.environ["MLFLOW_TRACKING_URL"]  # Using environment variable for mlflow URI
+        )
+        
+        return model_evaluation_config
