@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/Udemy/ML_Bootcamp/18_End_to_End_DataScience_Project/datascienceproject/mlruns/0/30819cdae1444d5aab7ffe14744286a8/artifacts
+end_time: 1739894337665
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 30819cdae1444d5aab7ffe14744286a8
+run_name: upset-wolf-96
+run_uuid: 30819cdae1444d5aab7ffe14744286a8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739894332614
+status: 3
+tags: []
+user_id: surani.mayur
