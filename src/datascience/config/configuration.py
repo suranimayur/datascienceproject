@@ -5,7 +5,7 @@ import os
 
 os.environ["MLFLOW_TRACKING_URL"] ="https://dagshub.com/surani.mayur/datascienceproject.mlflow"
 os.environ["MLFLOW_TRACKING_USERNAME"]="surani.mayur"
-os.environ["MLFLOW_TRACKING_PASSWORD"]="8e0fa2881661d8b0aa394495ae8650f1728eb027"
+os.environ["MLFLOW_TRACKING_PASSWORD"]="XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
 class ConfigurationManager:
     def __init__(self,
